@@ -14,7 +14,7 @@ public class LoginPage {
 		PageFactory.initElements(driver, this);
 	}
 	@FindBy(css="#Email")
-	WebElement usrNameTest;
+	WebElement usrName;
 	@FindBy(css="#Password")
 	WebElement pswd;
 	@FindBy(css="[type='submit']")
